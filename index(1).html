@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff0f5">
+<title>For My Pellam ❤️</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:#472535;background:linear-gradient(160deg,#fff0f5,#fffaf4 55%,#ffe5ee);font-family:system-ui,-apple-system,sans-serif;line-height:1.7}
+main{max-width:760px;margin:auto;padding:16px}.hero{min-height:76vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px}
+.heart{font-size:44px;animation:beat 1.25s infinite}h1,h2{font-family:Georgia,serif;color:#8c2853}h1{font-size:clamp(2.6rem,10vw,4.6rem);line-height:1.05;margin:14px 0}h2{font-size:1.7rem;margin:0 0 12px}
+.pill{background:#ffdce8;color:#85264d;border-radius:99px;padding:7px 14px;font-weight:700}.card{background:#ffffffd9;border:1px solid #f2c7d8;border-radius:24px;padding:22px;margin:18px 0;box-shadow:0 10px 30px #8c285310}
+p{margin:10px 0}.letter{white-space:pre-line;font-size:1.03rem}.photos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.photos img{width:100%;height:100%;max-height:440px;object-fit:cover;border-radius:16px;border:4px solid white;box-shadow:0 5px 18px #5a243018}
+.caption{text-align:center;color:#8c2853;font-family:Georgia,serif;font-style:italic}.promise{padding-left:0;list-style:none}.promise li{margin:10px 0}.promise li:before{content:"♡ ";color:#e44e86;font-size:1.25rem;font-weight:bold}
+.end{text-align:center;padding:35px 8px 50px}.small{font-size:.88rem;color:#896c79}button{border:0;border-radius:99px;padding:12px 18px;background:#e85c91;color:white;font-weight:700;font-size:1rem}
+.float{position:fixed;bottom:-30px;pointer-events:none;animation:up 4s linear forwards;z-index:5}@keyframes beat{50%{transform:scale(1.15)}}@keyframes up{to{transform:translateY(-110vh);opacity:0}}
+@media(max-width:460px){main{padding:10px}.card{padding:17px}.photos img{max-height:310px}}
+</style></head><body><main>
+<section class="hero"><div class="heart">❤️</div><div class="pill">Made with love, honesty and regret</div><h1>For My Pellam</h1><p>Naa maatalu kaadhu… naa actions nee nammakanni malli sampaadinchaali.</p><p>When you feel ready, please read this. 🤍</p></section>
+<section class="card"><h2>From my heart…</h2><p class="letter">Pellam,
+Nenu thappu chesaanu. Dhaaniki excuses cheppi naa thappuni cover cheyyalani anukovatledhu. Naa valla nuvvu hurt ayyaavani nenu oppukuntunna. 
+
+Nenu “sorry” ani cheppi aagipokoodadhu. Naa pravarthanalo maarpu choopinchaali. Nuvvu cheppina vishayaalani serious gaa theesukoni, nee feelings ni respect chesi, ade thappu malli repeat cheyyakunda nijanga effort pedathaanu.
+
+Nenu ila enno salru cheppanu pellam matalu kadhey pellam, naa actions maatlaadani. Nenu chesina thappuki responsibility naadhe. Ninnu hurt chesinanduku nijanga sorry, pellam. ❤️</p></section>
+<section class="card"><h2>Our memories 📸</h2><div class="photos"><img src="photos/memory-childhood.jpg" alt="A childhood memory"><img src="photos/memory-us.jpg" alt="A photo of us together"></div><p class="caption">From little memories to the life we are building together. ❤️</p></section>
+<section class="card"><h2>What I want to promise you 🤍</h2><ul class="promise"><li>I will listen without immediately defending myself.</li><li>I will respect the things you have clearly told me.</li><li>I will not expect one apology to erase the hurt I caused.</li><li>I will show change consistently, not just for a few days.</li><li>I will give you the time and space you need.</li></ul><p>These are not just pretty lines. I need to prove them through my behaviour.</p></section>
+<section class="card"><h2>One last thing…</h2><p class="letter">Pellam, nee feelings naaku important. Nenu chesina thappuni correct cheyyadaniki time, patience, consistent change avasaram ani ardham chesukuntunna.
+
+Pellam plss sorry ney ksaminchey pellam Edhaina punsihment ivvu kaani badhapadakey pellam🥺🤌.
+I am sorry for hurting you. I love you, pellam. ❤️</p></section>
+<section class="end"><div class="heart">💗</div><h2>Naa apology ni naa actions tho prove chesthaanu.</h2><p>Always with love — and with responsibility.</p><button onclick="hearts()">Tap for a little heart 🤍</button><p class="small">Made especially for you.</p></section>
+</main><script>function hearts(){for(let i=0;i<12;i++){let e=document.createElement('span');e.className='float';e.textContent=['❤️','💗','🤍','💕'][Math.floor(Math.random()*4)];e.style.left=Math.random()*95+'vw';e.style.fontSize=20+Math.random()*22+'px';e.style.animationDuration=3+Math.random()*3+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),6500)}}</script></body></html>
